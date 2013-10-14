@@ -1,5 +1,4 @@
 # MATLAB HS13 – Research Plan
-(text between brackets to be removed)
 
 > * Group Name: TocquevilleParadox
 > * Group participants names: Joël Berger, Milan Bombsch, Zhonghuan Dai
