@@ -28,19 +28,7 @@ Berger, J, Diekmann A (2013) The Logic of Relative Frustration. Boudon's Competi
 
 Boudon, R (1982) The Unintended Consequences of Social Action. London: Macmillan.
 
-Merton, RK (1957): Social Theory and Social Structure. New York: The Free Press.
-
-Neckel, S (2010): Verbesserungen führen zum Umsturz. Alexis de Tocqueville: “Der alte Staat und die Revolution”—das Tocqueville Paradox. In Sternstunden der Soziologie: Wegweisende Theoriemodelle des soziologischen Denkens, eds. Neckel S. et al., 381–386. Campus.
-
-Peiró JM, Agut S, Grau R (2010) The Relationship Between Overeducation and Job Satisfaction Among Young Spanish Workers: The Role of Salary, Contract of Employment, and Work Experience. Journal of Applied Social Psychology 40: 666–689.
-
 Raub W (1984) Rationale Akteure, institutionelle Regelungen und Interdependenzen. Untersuchungen zu einer erklärenden Soziologie auf strukturell-individualistischer Grundlage. Frankfurt/Main; New York; Nancy: Peter Lang.
-
-Runciman, WG (1966) Relative Deprivation and Social Justice. A Study of Attitudes
-to Social Inequality in Twentieth-Century England. London: Routlege and Kegan Paul.
-
-
-Stouffer SA, Suchman EA, Vinney LC de, Star SA, Williams RM Jr. (1965) The American Soldier. Manhattan (Kansas) Military Affairs; Aerospace Historian Publishing.
 
 Tocqueville, A (1952 [1856]) L’Ancien Régime et la Révolution. Paris: Editions Gallimard.
 
