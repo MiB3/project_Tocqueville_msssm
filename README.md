@@ -5,7 +5,8 @@
 > * Project Title: Boudon Competition Model
 
 ## General Introduction
-According to the historian Alexis de Tocqueville, before the French Revolution, economic and social conditions improved significantly. As a result, paradoxically, the French became more frustrated. Consequently, the Revolution broke out. Due to this observation, the phenomenon that in a social system aggregate frustration can diffuse when conditions improve is called "Tocqueville's paradox" (Neckel 2010). 
+According to the historian Alexis de Tocqueville, before the French Revolution, economic and social conditions improved significantly. 
+As a result, paradoxically, the French became more frustrated. Consequently, the Revolution broke out. Due to this observation, the phenomenon that in a social system aggregate frustration can diffuse when conditions improve is called "Tocqueville's paradox". 
 
 Tocqueville's paradox has been reporter in several empirical studies and it is important to know under which circumstance improving conditions fuel frustration rather than satisfaction. Usually it is costly for a social entity - be it an organization or a society - to provide further chances, let's say, for upward mobility. When improvements lead to less satisfaction, obviously, resources have been waisted (Raub 1984).
 
