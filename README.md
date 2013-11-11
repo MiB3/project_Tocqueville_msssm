@@ -15,22 +15,40 @@ Although many explanations of Tocqueville's paradox have been proposed, the game
 ## The Model
 
 In a social system, each of N players decides whether or not to invest resources such as time, money or effort, in a competition for a scarce and highly valued good, e.g. a high prestige position within a firm. Should there be more investors than positions k, some competitors will invest in vain. In other words: The higher the number of competitors n, the smaller the expected value of the strategy "invest" gets (see Figure 1: Game matrix form perspective of any player I for a given number of positions k).
+
 ![Game Matrix](GameMatrix.jpg)
 
+Given the position is valuable enough, a small increase in the chances of obtaining this good (e.g. one additional high prestige positions in a firm) can tempt a disproportionate number of players to invest. As a result, there are more additional frustrated losers than additional satisfied winners and on the aggregate level and dissatisfaction increases.
+
+The parameters of the models are the number of players N, the number of scarce positions k, and the payoffs for successful investors (alpha), frustrated losers (gamma) and non-investors (beta). It must hold that alpha > beta > gamma. 
+
+For a given parameter constellation (alpha, beta, gamma, k, N), each actor decides whether or not to invest the following way: Our focal player calculates the expected payoff for each possible number of investors as described in equation 1: 
+
+![E(n,k)](E(n,k).jpg)
+
+Should the expected payoff for the strategy "invest", given a number of other investors E(k, n), be greater than the payoff for the strategy "not invest", independently of the number of investors n, she will invest with certainty (dominant strategy). Should there be no dominant strategy, our focal player calculates the overall expected payoff of the strategy invest E(k, .). Then, the overall expected value of"invest" its equated with beta, the payoff of the strategy "not invest". Forth, equation 2 is solved for p. This yields investment probability p*. If everyone invests with p*, this results in a Nash equilibrium in mixed strategies.
+
+![E(overall](E(overall).jpg)
+
+The proportion of investors equals p* (or 100% in case of a dominant strategy). The proportion of losers equals the proportion of investors minus the proportion of winners. The proportion of winners equals the number of positions k/N.
 
 ## Fundamental Questions
-Tocqueville's paradox is derived from restrictive model assumptions such as homogeneous and totally rational actors. Should the model not just provide an idealized mechanism of how Tocqueville's paradox is brought about, but also a realistic explanation, it must be demonstrated that the model generates the paradox under less restrictive assumptions. For instance, in the real world, actors differ in their risk-preferences or their endowment of resources. Moreover, they are not perfectly informed about the chances of succeeding in a competition and their beliefs about this might be formed by information obtained through networks. Hence, the model might be extended by one ore more of these factors (heterogeneous actors, resources, belief-formation through networks). In doing so, one could describe the effect of one of these variables on the occurrence of Tocqueville's paradox.
-In our project we would like to relax the perfect infromation assumtion, and try out different ways how actors update their believes. The question is how these differences in believe formation changes the model predictions.
+
+Tocqueville's paradox is derived from restrictive model assumptions such as homogeneous and totally rational actors. In order to approximate social reality more closely, it seems worthwhile to extend the model. We will do this by introducing 3 classes (1). Middle class individuals will invest rationally, while upper class individuals invest with a slightly higher than the optimal probability and under class individuals with a lower than optimal probability. This mimics the finding from social stratification research, that given the same qualifications, upper class individuals rather invest in higher education than lower class individuals (e.g. Becker and Lauterbach 2007).  Moreover, we implement a feedback mechanisms into the model (2). Starting with a homogeneous population, the winners of the competition join the upper class while the losers join the underclass. Starting from a homogeneous population, the model can be iterated in order to observe the emergence of different classes and how different stratification regimes influence the occurrence of Tocquevilles paradox.
 
 ## Expected Results
-Varying individual properties will lead to an increase in the variation of possible model outcomes. For instance, if some actors have more pessimistic beliefs about chances of willing or have to take higher costs for investing, they will invest with a lower probability. Consequently, the number of losers will not increase as dramatically as under standard assumptions. Thus, the conditions under which the model generates Tocqueville's paradox will be less general. This implies however, that besides a more realistic explanation, more precise predictions about the occurrence of the target phenomenon can be made. 
+
+We do not really know in which way our alterations might change the outcome since our model extensions are new. Nevertheless, since the model is closer to reality when introducing heterogeneous actors and we model a process instead of only a state, it is worthwhile to implement the model this way all the same.
 
 ## References 
-Berger, J, Diekmann A (2013) The Logic of Relative Frustration. Boudon's Competition Model and Experimental Evidence. Working Paper, ETH Zurich.
+
+Becker ,R, Lauterbach, W (2007). Bildung als Privileg. Ursachen, Mechanismen, Prozesse und Wirkungen. Wiesbaden: VS.
 
 Boudon, R (1982) The Unintended Consequences of Social Action. London: Macmillan.
 
-Raub W (1984) Rationale Akteure, institutionelle Regelungen und Interdependenzen. Untersuchungen zu einer erklärenden Soziologie auf strukturell-individualistischer Grundlage. Frankfurt/Main; New York; Nancy: Peter Lang.
+Neckel, S (2010): Verbesserungen führen zum Umsturz. Alexis de Tocqueville: “Der alte Staat und die Revolution”—das Tocqueville Paradox. In Sternstunden der Soziologie: Wegweisende Theoriemodelle des soziologischen Denkens, eds. Neckel S. et al., 381–386. Campus.
+
+Stouffer SA, Suchman EA, Vinney LC de, Star SA, Williams RM Jr. (1965) The American Soldier. Manhattan (Kansas) Military Affairs; Aerospace Historian Publishing.
 
 Tocqueville, A (1952 [1856]) L’Ancien Régime et la Révolution. Paris: Editions Gallimard.
 
@@ -38,4 +56,6 @@ Tocqueville, A (1952 [1856]) L’Ancien Régime et la Révolution. Paris: Editio
 Game Theory and Agent Based Model
 
 ## Other
-In principle, no data is necessary for this project since it is a purely theoretical simulation. Nevertheless, empirically measured risk preferences could be used as an alternative to the standard assumption of risk neutral preferences.
+
+No empirical data is necessary for this project since it is a purely theoretical simulation.
+
