@@ -5,17 +5,17 @@
 > * Project Title: Boudon Competition Model
 
 ## General Introduction
-According to the historian Alexis de Tocqueville, before the French Revolution, economic and social conditions improved significantly. 
-As a result, paradoxically, the French became more frustrated. Consequently, the Revolution broke out. Due to this observation, the phenomenon that in a social system aggregate frustration can diffuse when conditions improve is called "Tocqueville's paradox". 
+According to the historian Alexis de Tocqueville, before the French Revolution, economic and social conditions improved significantly. As a result, paradoxically, the frustration grew among the French. Consequently, the Revolution broke out. Due to this observation, the phenomenon that in a social system aggregate frustration can diffuse when conditions improve is called "Tocqueville's paradox" (Neckel 2010). 
 
-Tocqueville's paradox has been reporter in several empirical studies and it is important to know under which circumstance improving conditions fuel frustration rather than satisfaction. Usually it is costly for a social entity - be it an organization or a society - to provide further chances, let's say, for upward mobility. When improvements lead to less satisfaction, obviously, resources have been waisted (Raub 1984).
+Tocqueville's paradox has been reporter in several empirical studies (e.g. Stouffer et al. 1965, Peirò et al. 2010) and it is important to know under which circumstance improving conditions fuel frustration rather than satisfaction. Usually it is costly for a social entity - be it an organization or a society - to provide further chances, let's say, for upward mobility. When improvements lead to less satisfaction, obviously, resources have been waisted (Raub 1984).
 
-Although many explanations of Tocqueville's paradox have been proposed , the game theoretic model by the French sociologist Raymond Boudon (1979) provides the most elaborated one (Raub 1984). Nevertheless, the model is based on restrictive assumptions and it seems worthwhile to relax some of them in order to make the model more realistic.
+Although many explanations of Tocqueville's paradox have been proposed, the game theoretic model by the French sociologist Raymond Boudon (1979) provides the most elaborated one (Raub 1984). Nevertheless, the model is based on restrictive assumptions and it seems worthwhile to relax some of them in order to make the model more realistic.
+
 
 ## The Model
-In a social system, each of N players decides whether or not to invest resources C in a competition for a scarce and highly valued good, e.g. a high prestige position within a firm. Should there be more investors than positions, some competitors will invest in vain. Given the good is valuable enough, a small increase in the chances of obtaining this good (e.g. one additional high prestige positions in a firm) can tempt a disproportionate number of players to invest. As a result, there are more additional frustrated losers than additional satisfied winners and on the aggregate level, dissatisfaction increases.
 
-The parameters of the models are the number of players N, the number of scarce positions k, and the payoffs for successful investors a, frustrated losers c and non-investors b. It must hold that a > b > c and that 0 < k < N. Under certain parameter constellations, the model predicts an inversely u-shaped trajectory of the rate of frustrated losers (Boudon 1979, Berger & Diekmann 2013). When conditions slightly improve, the number of frustrated losers increases: Tocqueville paradox emerges as a consequence of interdependent individual investment decisions. When chances are further enhanced, more and more investors succeed and, consequently, aggregate frustration decreases again.
+In a social system, each of N players decides whether or not to invest resources such as time, money or effort, in a competition for a scarce and highly valued good, e.g. a high prestige position within a firm. Should there be more investors than positions k, some competitors will invest in vain. In other words: The higher the number of competitors n, the smaller the expected value of the strategy "invest" gets (see Figure 1: Game matrix form perspective of any player I for a given number of positions k).
+![Game Matrix](GameMatrix.jpg)
 
 
 ## Fundamental Questions
