@@ -16,7 +16,7 @@ Although many explanations of Tocqueville's paradox have been proposed, the game
 
 In a social system, each of N players decides whether or not to invest resources such as time, money or effort, in a competition for a scarce and highly valued good, e.g. a high prestige position within a firm. Should there be more investors than positions k, some competitors will invest in vain. In other words: The higher the number of competitors n, the smaller the expected value of the strategy "invest" gets (see Figure 1: Game matrix form perspective of any player I for a given number of positions k).
 
-![Game Matrix](GameMatrix.jpg)
+![Game Matrix](other/GameMatrix.jpg)
 
 Given the position is valuable enough, a small increase in the chances of obtaining this good (e.g. one additional high prestige positions in a firm) can tempt a disproportionate number of players to invest. As a result, there are more additional frustrated losers than additional satisfied winners and on the aggregate level and dissatisfaction increases.
 
@@ -24,11 +24,11 @@ The parameters of the models are the number of players N, the number of scarce p
 
 For a given parameter constellation (alpha, beta, gamma, k, N), each actor decides whether or not to invest the following way: Our focal player calculates the expected payoff for each possible number of investors as described in equation 1: 
 
-![E(n,k)](Enk.jpg)
+![E(n,k)](other/Enk.jpg)
 
 Should the expected payoff for the strategy "invest", given a number of other investors E(k, n), be greater than the payoff for the strategy "not invest", independently of the number of investors n, she will invest with certainty (dominant strategy). Should there be no dominant strategy, our focal player calculates the overall expected payoff of the strategy invest E(k, .). Then, the overall expected value of"invest" its equated with beta, the payoff of the strategy "not invest". Forth, equation 2 is solved for p. This yields investment probability p*. If everyone invests with p*, this results in a Nash equilibrium in mixed strategies.
 
-![E(overall)](Eoverall.jpg)
+![E(overall)](other/Eoverall.jpg)
 
 The proportion of investors equals p* (or 100% in case of a dominant strategy). The proportion of losers equals the proportion of investors minus the proportion of winners. The proportion of winners equals the number of positions k/N.
 
