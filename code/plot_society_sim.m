@@ -63,6 +63,7 @@ winners(1) = 0;
 losers(1) = 0;
 
 %First plot/frame iteration: 0
+set(gca, 'FontSize', 16);
 imshow(popu,[-1 1],'InitialMagnification','fit');
 colorbar;% show a legend for the color of the pixels. 0 = poor, 1 = rich.
 title(sprintf('Iteration: %d   Mean: %1.2f  Gini: %1.2f   Happiness: %1.2f',0, me(1), gi(1), ha(1)));
@@ -119,7 +120,7 @@ for iter = 1:it
     ha(iter+1) = (winners(iter+1) - losers(iter+1))/N;
     gi(iter+1) = ginicoeff(reshaped+1);
     title(sprintf('Iteration: %d   Mean: %1.2f   Gini: %1.2f   Happiness: %1.2f',iter, me(iter+1), gi(iter+1), ha(iter+1)));
-    
+    xlabel(sprintf('k = %d, N = %d, c = %1.2f', k, N, c));
     %add a frame to the movie.
     M(iter+1) = getframe(h);
     if (show_output)
@@ -130,13 +131,18 @@ end
 %show graph for mean, gini and happiness
 j = figure;
 x = 0:it;
+set(gca, 'FontSize', 16);
 plot(x,me, 'r-*');%./max(abs(me)),'r-*');
-set(gca,'XTick',0:iter);
+xti = 0:5:iter;
+if (xti(end) ~= iter)
+    xti = [xti iter];
+end
+set(gca,'XTick',xti);
 xlim([0 it]);
 ylim([-1 1]);
-title('Society situation over time');
+title(sprintf('Society situation over time. k = %d, N = %d, c = %1.2f', k, N, c));
 xlabel('Timesteps');
-ylabel('Respective Values (Mean and happiness are scaled to [-1, 1])');
+ylabel('Respective Values');
 hold on
 plot(x,ha, 'b-*');%/max(abs(ha)),'b-*');
 plot(x,gi,'k-*');

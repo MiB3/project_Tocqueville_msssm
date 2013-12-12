@@ -24,8 +24,13 @@ invest = invest.*100;
 win = win.*100;
 lose = lose.*100;
 
+set(gca, 'FontSize', 16);
 plot(x,invest,'b-*');
-set(gca,'XTick',0:1:N);
+xti = 0:5:N;
+if (xti(end) ~= N)
+    xti = [xti N];
+end
+set(gca,'XTick',xti);
 title('Proportions of investors, losers and winners');
 xlabel('positions');
 ylabel('percent of population');
